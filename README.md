@@ -4,6 +4,9 @@
 
 (in admin powershell)
 
+- Open powershell with admin
+- Run `Set-ExecutionPolicy RemoteSigned`
+- Open notepad as admin, save contents of `windows.ps1` to `C:\`
 - Run `windows.ps1`
 - Make sure `bash` is added to Path, like `C:\Program Files\Git\bin`
 - Run GitHub set up steps
