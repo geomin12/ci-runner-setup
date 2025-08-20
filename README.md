@@ -9,6 +9,7 @@
 - Open notepad as admin, save contents of `windows.ps1` to `C:\`
 - Run `windows.ps1`
 - Make sure `bash` is added to Path, like `C:\Program Files\Git\bin`
+- Restart the terminal and run `pip install pyyaml`
 - Run GitHub set up steps
   - `./config.cmd --url https://github.com/ROCm --token {TOKEN} --windowslogonaccount --windowslogonpassword --no-default-labels --labels {LABEL}`
   - Make sure to allow security access to group in config step
