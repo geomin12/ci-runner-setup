@@ -5,6 +5,7 @@ tar xzf ./actions-runner-linux-x64-2.328.0.tar.gz
 sudo usermod -a -G sudo "$(id -un)"
 echo "%sudo ALL = (ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers
 sudo ./svc.sh install root
+cd ..
 # Add Docker's official GPG key:
 sudo apt-get update
 sudo apt-get install ca-certificates curl
